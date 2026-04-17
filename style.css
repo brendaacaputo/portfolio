@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(imagens/wallpaper.png);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: #946875;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+li {
+    float: right;
+    padding: 5vh;
+    list-style-type: none;
+    font-size: 25px;
+    transition: all 0.4s ease;
+
+}
+
+a {
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #faf29a;
+    transition-duration: 0.50s;
+    border-radius: 20px;
+
+}
+
+nav {
+    background-color:  #e7b8c5;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+
+
+.container {
+    background-color: rgba(255, 192, 203, 0.6);
+        margin:auto;
+        width: 80%;
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+}
+
+header {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#foto {
+background-image: url(imagens/perfil.png);
+background-repeat: no-repeat;
+background-size: 100%;
+width: 350px;
+height: 350px;
+border-radius: 100%;
+
+
+}
+
+#descricao,#comentarios{
+    width: 30%;
+        background-color: #ffb6c1e6;
+        border-radius: 15px;
+        padding: 15px;
+        color: white;
+        text-align: left;
+}
+
+div.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-image: url(img/windows-xp-wallpaper-bliss-4k-wallpaper.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 81.5vh;
+}
+div.imgPerf {
+    width: 500px;
+    height: 500px;
+    background-color: #ffb6c1e6;
+    border-radius: 50%;
+    box-shadow: 20px 20px 10px #ffe9a8e6;
+}
+div.texto {
+    width: 800px;
+    height: 400px;
+    background-color: #ffb6c1e6;
+    padding: 20px;
+    border-radius: 20px;
+    color: aliceblue;
+    box-shadow: 20px 20px 10px #ffe9a8e6;
+}
